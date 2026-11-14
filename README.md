@@ -1,5 +1,5 @@
 
-# COMP 584 - Project 5
+# COMP 584 - Project 5 API
 ## Chuck Norris Joke Generator
 
 This project uses the Chuck Norris API to display
