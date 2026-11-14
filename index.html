@@ -1,0 +1,70 @@
+<!-- Project 5 API-->
+<!-- Michael Rodriguez -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris Joke Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Top of the page -->
+    <header>
+        <h1>Chuck Norris Joke Generator</h1>
+        <p>Get a random Chuck Norris joke!</p>
+    </header>
+
+    <main>
+        <section class="joke-container">
+            <h2>Random Joke</h2>
+
+            <!-- Shows the joke from the API -->
+            <div class="joke-card" id="jokeCard">
+                <p id="jokeText">Click the button to get a joke!</p>
+            </div>
+
+            <!-- Pick what type of joke to get -->
+            <label for="category">Choose a category:</label>
+            <select id="category">
+                <option value="">Random</option>
+                <option value="dev">Developer</option>
+                <option value="movie">Movie</option>
+                <option value="science">Science</option>
+                <option value="sport">Sport</option>
+            </select>
+
+            <!-- Buttons for jokes and animation -->
+            <div class="buttons">
+                <button id="jokeButton">Get New Joke</button>
+                <button id="animationButton">Replay Animation</button>
+            </div>
+
+            <p id="status" role="status"></p>
+        </section>
+    </main>
+
+    <!-- Links for the project -->
+    <footer>
+        <p>COMP 584 - Project 5</p>
+        <p>
+            <a href="https://api.chucknorris.io/" target="_blank" rel="noopener noreferrer">
+                Chuck Norris API
+            </a>
+        </p>
+        <p>
+            <a href="https://canvas.csun.edu/courses/192042/pages/project-5-api-slash-animation-sign-up">
+                API / Animation Sign Up
+            </a>
+        </p>
+        <p>
+            <a href="https://canvas.csun.edu/courses/192042/pages/project-5-api-slash-animation-presentation-sign-up">
+                Presentation Sign Up
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
