@@ -13,4 +13,4 @@ random jokes on a webpage.
 - Responsive layout using CSS Grid and Flexbox
 - Error handling for failed API requests
 
-[Visit the chuck norris lore!](https://rodMike54.github.io/Comp584-Project5-API-Animation/)
+[Visit the chuck norris lore!](https://rodmike54.github.io/Comp584-project5API/)
